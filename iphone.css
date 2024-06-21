@@ -35,6 +35,7 @@
   }
   .second_page {
     padding: 64px 16px 64px 16px;
+    gap: 48px;
   }
   .second_page .second_textpart .second_textpart_head .second_textpart2 {
     font-size: 1.875rem;
@@ -42,7 +43,7 @@
   }
   .second_page .second_textpart .second_textpart3 {
     font-size: 1.25rem;
-    line-height: 30px;
+    line-height: 28px;
   }
   .second_page .second_imagepart .second_imagepart1 {
     max-width: 343px;
@@ -91,6 +92,14 @@
     max-width: 343px;
     max-height: 288px;
   }
+  .four_page .four_page_text .four_page_text_p1 {
+    font-size: 1.75rem;
+    line-height: 38px;
+  }
+  .four_page .four_page_text .four_page_text_p2 {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
   .five_page {
     padding: 64px 16px 64px 16px;
   }
@@ -98,7 +107,7 @@
     height: 356px;
   }
   .five_page .five_page_colorarea .five_page_innerarea .five_page_textarea .five_page_p1 {
-    font-size: 1.875rem;
+    font-size: 1.75rem;
     line-height: 38px;
   }
   .five_page .five_page_colorarea .five_page_innerarea .five_page_textarea .five_page_p2 {
@@ -108,4 +117,13 @@
   .five_page .five_page_colorarea .five_page_innerarea .five_page_button {
     width: 279px;
   }
+}
+.last_page {
+  padding: 48px 16px 0px 16px;
+}
+.last_page .last_page1 .about_us .about_us1 .about_margin .navbar_logo_title1 {
+  justify-content: left;
+}
+.last_page .last_page1 .about_us .about_us1 .about_margin .navbar_logo_title1 .logo_title1 {
+  font-size: 1.875rem;
 }/*# sourceMappingURL=iphone.css.map */

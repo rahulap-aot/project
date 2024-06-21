@@ -38,6 +38,7 @@ $padding:64px 16px 64px 16px;
     }
     .second_page{
         padding: $padding;
+        gap:48px;
          .second_textpart {
             .second_textpart_head{
                 .second_textpart2{
@@ -47,7 +48,7 @@ $padding:64px 16px 64px 16px;
             }
             .second_textpart3 {
                 font-size: 1.25rem;
-                    line-height: 30px;
+                    line-height: 28px;
             }
          }
          .second_imagepart {
@@ -103,6 +104,15 @@ $padding:64px 16px 64px 16px;
          .four_page_text{
             max-width: 343px;
             max-height: 288px;
+            .four_page_text_p1{
+                font-size: 1.75rem;
+                line-height: 38px;
+            }
+            .four_page_text_p2{
+                font-size: 1.125rem;
+                line-height: 28px;
+            }
+
          }
     }
     .five_page{
@@ -112,7 +122,7 @@ $padding:64px 16px 64px 16px;
             .five_page_innerarea{
                 .five_page_textarea{
                     .five_page_p1{
-                        font-size: 1.875rem;
+                        font-size: 1.75rem;
                         line-height: 38px;
                     }
                     .five_page_p2{
@@ -126,8 +136,23 @@ $padding:64px 16px 64px 16px;
             }
         }
     }
-
-    
-
 }
+.last_page {
+    padding:48px 16px 0px 16px;
+    .last_page1{
+        .about_us {
+            .about_us1{
+                .about_margin {
+                    .navbar_logo_title1{
+                        justify-content:left;
+                        .logo_title1{
+                            font-size: 1.875rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 

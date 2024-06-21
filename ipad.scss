@@ -12,6 +12,7 @@ $padding:64px 16px 64px 16px;
             flex-direction: column;
         }
     }
+    
     .third_page{
         .third_page_main{
             .third_page_cardpart{
@@ -25,12 +26,6 @@ $padding:64px 16px 64px 16px;
 }
 @media only screen and (max-width: 1024px){
     
-    // ul{
-    //     list-style: none;
-    // }
-
-
-
     .navbar {
         .navbarbody{
             .navbar_main{
@@ -248,6 +243,7 @@ $padding:64px 16px 64px 16px;
                             width: 100%;
                             display: flex;
                             justify-content: space-between;
+                            height: 44px;
                             .smallfinal{
                                 height: 20px;
                                 font-family: poppins;
@@ -256,6 +252,10 @@ $padding:64px 16px 64px 16px;
                                 line-height: 20px;
                                 color: #475467;
                                 margin: 1px;
+                            }
+                            .arrow{
+                                max-width: 24px;
+                                max-height: 24px;
                             }
                         }
                     }
@@ -267,9 +267,9 @@ $padding:64px 16px 64px 16px;
                             margin-bottom: 20px;
                         }
 
-                        li:hover{
-                            background: #fff;
-                            color: green;
+                        .final_page_nc ul li:hover {
+                            color: #107569;
+                            background-color: #F0FDF9;
                         }
                     }
 

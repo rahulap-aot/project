@@ -196,6 +196,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 44px;
   }
   .last_page .last_page1 .final_dropdown .final_dropcard .final_page_vc .final_page_vcrow .smallfinal {
     height: 20px;
@@ -206,6 +207,10 @@
     color: #475467;
     margin: 1px;
   }
+  .last_page .last_page1 .final_dropdown .final_dropcard .final_page_vc .final_page_vcrow .arrow {
+    max-width: 24px;
+    max-height: 24px;
+  }
   .last_page .last_page1 .final_dropdown .final_dropcard .final_page_nc {
     display: flex;
     list-style: none;
@@ -213,8 +218,8 @@
   .last_page .last_page1 .final_dropdown .final_dropcard .final_page_nc li {
     margin-bottom: 20px;
   }
-  .last_page .last_page1 .final_dropdown .final_dropcard .final_page_nc li:hover {
-    background: #fff;
-    color: green;
+  .last_page .last_page1 .final_dropdown .final_dropcard .final_page_nc .final_page_nc ul li:hover {
+    color: #107569;
+    background-color: #F0FDF9;
   }
 }/*# sourceMappingURL=ipad.css.map */
