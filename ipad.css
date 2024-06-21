@@ -151,7 +151,6 @@
     display: none;
   }
   .last_page .last_page1 .final_dropdown {
-    width: 100%;
     padding: 0px 32px 0px 32px;
     display: flex;
     flex-direction: column;
