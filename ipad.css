@@ -14,6 +14,9 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+  .navbar {
+    z-index: 1;
+  }
   .navbar .navbarbody .navbar_main .naivbar_list {
     display: none;
   }
@@ -33,7 +36,7 @@
     flex-direction: column;
     position: absolute;
     justify-content: center;
-    top: 72px;
+    top: 68px;
     right: 0;
     min-width: 100%;
     background-color: white;
@@ -216,6 +219,10 @@
   }
   .last_page .last_page1 .final_dropdown .final_dropcard .final_page_nc li {
     margin-bottom: 20px;
+  }
+  .last_page .last_page1 .final_dropdown .final_dropcard .final_page_nc li:hover {
+    color: #107569;
+    background-color: #F0FDF9;
   }
   .last_page .last_page1 .final_dropdown .final_dropcard .final_page_nc .final_page_nc ul li:hover {
     color: #107569;

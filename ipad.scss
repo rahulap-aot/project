@@ -27,6 +27,7 @@ $padding:64px 16px 64px 16px;
 @media only screen and (max-width: 1024px){
     
     .navbar {
+        z-index: 1;
         .navbarbody{
             .navbar_main{
                 .naivbar_list{
@@ -49,7 +50,7 @@ $padding:64px 16px 64px 16px;
                 flex-direction: column;
                 position: absolute;
                 justify-content: center;
-                top: 72px;
+                top: 68px;
                 right: 0;
                 min-width: 100%;
                 background-color: white;
@@ -264,6 +265,10 @@ $padding:64px 16px 64px 16px;
                     
                         & li{
                             margin-bottom: 20px;
+                        }
+                        & li:hover{
+                            color: #107569;
+                            background-color: #F0FDF9;
                         }
 
                         .final_page_nc ul li:hover {
