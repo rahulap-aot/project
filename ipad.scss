@@ -1,0 +1,281 @@
+$padding:64px 16px 64px 16px;
+
+
+@media only screen and (max-width: 1236px){
+    
+    .first_page{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .second_page{
+        .second_imagepart{  
+            flex-direction: column;
+        }
+    }
+    .third_page{
+        .third_page_main{
+            .third_page_cardpart{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+    .four_page{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 1024px){
+    
+    // ul{
+    //     list-style: none;
+    // }
+
+
+
+    .navbar {
+        .navbarbody{
+            .navbar_main{
+                .naivbar_list{
+                    display: none;
+                }
+            }
+            .login_signup{
+                display: none;
+            }
+            .menu-toggle{
+                display: block;
+            }
+            .hamburger {
+                display: block;
+            }
+            .dropdown_menu {
+                display: none;
+                opacity: 0;
+                transition: 0.2s ease all;
+                flex-direction: column;
+                position: absolute;
+                justify-content: center;
+                top: 72px;
+                right: 0;
+                min-width: 100%;
+                background-color: white;
+                padding: 18px 32px;
+                box-sizing: border-box;
+            }
+            .dropdown_menu ul {
+                list-style: none;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+                margin: 0;
+                padding: 0;
+            }
+            .dropdown_menu ul {
+                list-style: none;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+                margin: 0;
+                padding: 0;
+            }
+        
+            .dropdown_menu .menu_items {
+                padding: 0;
+                max-width: 1024px;
+            }
+        
+            .dropdown_menu ul li {
+                padding: 6px 32px 6px 42px;
+                color: black;
+                font-size: 16px;
+                line-height: 24px;
+                transition: 0.2s ease all;
+                font-weight: 600;
+                box-sizing: border-box;
+                width: 100%;
+                border-radius: 8px;
+            }
+        
+            .dropdown_menu ul li:hover {
+                color: #107569;
+                background-color: #F0FDF9;
+            }
+        
+            .hamburger .hamburger_close {
+                display: none;
+            }
+            
+            .menu_toggle{
+                display: none;
+            }
+        
+            .menu_toggle:checked ~ .dropdown_menu {
+                display: flex;
+                opacity: 1;
+        
+            }
+            .menu_toggle:checked ~ .hamburger {
+                .hamburger_open {
+                    display: none;
+                }
+            }
+        
+            .menu_toggle:checked ~ .hamburger {
+                .hamburger_close {
+                    display: block;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+    .first_page{
+    padding: $padding;
+        .first_textbox{
+            .first_textbox1{
+                max-width: 680px;
+                align-items: center;
+            }
+        .first_textbox_button{
+            align-items: center;
+            width: 100%;
+            }
+        }
+        .first_imagebox{
+            max-width: 500px;
+            max-height: 500px;
+            
+        }
+    }
+    .second_page {
+    padding: $padding;
+        .second_imagepart{
+            .second_cardpart{
+                max-width: 680px;
+            }
+        }
+    }
+
+    .third_page{
+    padding: $padding;
+         .third_page_main{
+            padding: 0%;
+            .third_page_cardpart{
+                .third_page_card{
+                    max-width: 324px;
+                }
+            }
+         }
+        }
+    .four_page{
+    padding: $padding;
+        .four_page_image{
+            max-width: 500px;
+            max-height: 500px;
+        }
+        .four_page_text{
+            max-width: 680px ;
+        }
+    }
+    .five_page{
+    padding: $padding;
+    }
+
+    .last_page {
+        .last_page1{
+            .about_us{
+                flex-direction: column;
+                gap: 48px;
+                .about_us1{
+                    width: 100%;
+                    display: flex;
+                    flex: 1;
+                }
+                .about_us_text{
+                    display: none;
+                }
+
+            }
+            .final_dropdown{
+                width: 100%;
+                padding: 0px 32px 0px 32px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .final_dropcard{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    border-bottom: 1px solid #000;
+                    border-color:#92979f;
+                    #drop_toggle1,#drop1{
+                        display: none;
+                    }
+                    #drop_toggle1:checked ~ #drop1{
+                        display: block;
+                    }
+                    #drop_toggle2,#drop2{
+                        display: none;
+                    }
+                    #drop_toggle2:checked ~ #drop2{
+                        display: block;
+                    }
+                    #drop_toggle3,#drop3{
+                        display: none;
+                    }
+                    #drop_toggle3:checked ~ #drop3{
+                        display: block;
+                    }
+                    #drop_toggle4,#drop4{
+                        display: none;
+                    }
+                    #drop_toggle4:checked ~ #drop4{
+                        display: block;
+                    }
+                    .final_page_vc{
+                        display: flex;
+
+
+                        .final_page_vcrow{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            .smallfinal{
+                                height: 20px;
+                                font-family: poppins;
+                                font-weight: 400;
+                                font-size: 1.25rem;
+                                line-height: 20px;
+                                color: #475467;
+                                margin: 1px;
+                            }
+                        }
+                    }
+                    .final_page_nc{
+                        display: flex;
+                        list-style: none;
+                    
+                        & li{
+                            margin-bottom: 20px;
+                        }
+
+                        li:hover{
+                            background: #fff;
+                            color: green;
+                        }
+                    }
+
+                }
+                
+            }
+        }
+    }
+}

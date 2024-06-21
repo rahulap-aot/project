@@ -1,116 +1,111 @@
-@media only screen and (min-width: 376px) and (max-width: 550px){
-    .navbar{
-        padding: 16px;
-    }
-    .navbar_logo_title{
-        justify-content: center;
-    }
-    .first_page{
-        padding: 64px 16px 64px 16px;
-    }
-    .first_text_div_heading{
-        width: 100%;
-        height: 44px;
-        font-size: 36px;
-        line-height: 44px;
-    }
-    .first_image_div img{
-        width: 100%;
-        height: 343px;
-    }
-    .first_text_div_paragraph{
-        max-width: 343px;
-        height: 84px;
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .first_text_div_button{
-        width: 343px;
-        height: 16px;
-        font-size: 24px;
-        height: 48px;
-    }
-    .third_page_dev1{
-        height: 270px;
-        justify-content: space-between;
-    }
-    .third_page_dev1_2{
-        font-size: 30px;
-        line-height: 38px;
-    }
-    .third_page_dev1_3{
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .third_page_dev2_p1{
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .third_page_dev2_p2{
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .third_page_dev2_area{
-        height: 264px;
-    }
-    .four_page_dev1_p1{
-        font-size: 30px;
-        line-height: 38px;
-    }
-    .four_page_dev1_p2{
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .five_page {
-        padding:32px;
-    }
-    .five_page_p1{
-        font-size: 30px;
-        line-height: 38px;
-    }
-    .five_page_p2{
-        font-size: 18px;
-        line-height: 28px;
-    }
-
-
-    
-    .logo{
-        width: 24px;
-        height: 24px;
-    }
-    .first_page{
-        width: 375px;
-    }
-    .first_image_div img{
-        width: 100%;
-        height: 343px;
-    }
-    .first_text_div{
-        width: 342px;
-        height: 252px;
-    }
-    .first_text_div_heading{
-        max-width: 343px;
-        height: 44px;
-        font-size: 36px;
-        line-height: 44px;
-    }
-    .first_text_div_image{
-        max-width: 343px;
-        height: 12px;
-    }
-    .first_text_div_paragraph{
-        max-width: 343px;
-        height: 84px;
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .second_page{
-        display: block;
-        padding: 64px 16px 64px 16px;
-    }
-    .six_page_div2_foot_p{
-        text-align: left;
-    }
-}
+@media only screen and (max-width: 709px) {
+  .first_page {
+    padding: 64px 16px 64px 16px;
+  }
+  .first_page .first_imagebox {
+    max-width: 343px;
+    max-height: 343px;
+  }
+  .first_page .first_textbox {
+    max-width: 343px;
+    height: 252px;
+  }
+  .first_page .first_textbox .first_textbox1 {
+    height: 172px;
+  }
+  .first_page .first_textbox .first_textbox1 .first_textbox_head {
+    font-size: 2rem;
+    line-height: 44px;
+    text-align: center;
+  }
+  .first_page .first_textbox .first_textbox1 .first_textbox_image {
+    max-width: 343px;
+  }
+  .first_page .first_textbox .first_textbox1 .first_textbox_paragraph {
+    font-size: 1.125rem;
+    line-height: 28px;
+    text-align: center;
+  }
+  .first_page .first_textbox .first_textbox_button {
+    max-width: 343px;
+    height: 48px;
+    font-size: 1rem;
+    line-height: 28px;
+    justify-content: center;
+  }
+  .second_page {
+    padding: 64px 16px 64px 16px;
+  }
+  .second_page .second_textpart .second_textpart_head .second_textpart2 {
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .second_page .second_textpart .second_textpart3 {
+    font-size: 1.25rem;
+    line-height: 30px;
+  }
+  .second_page .second_imagepart .second_imagepart1 {
+    max-width: 343px;
+    max-height: 343px;
+  }
+  .second_page .second_imagepart .second_cardpart .second_cardrow {
+    flex-direction: column;
+  }
+  .third_page {
+    padding: 64px 16px 64px 16px;
+  }
+  .third_page .third_page_main .third_textpart {
+    position: relative;
+    height: 250px;
+  }
+  .third_page .third_page_main .third_textpart .third_page_head {
+    justify-content: space-between;
+    height: 150px;
+    max-width: 343px;
+  }
+  .third_page .third_page_main .third_textpart .third_page_head .third_page_part2 {
+    font-size: 1.875rem;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+  .third_page .third_page_main .third_textpart .third_page_part3 {
+    font-size: 1.125rem;
+    line-height: 28px;
+    position: absolute;
+    bottom: 0%;
+  }
+  .third_page .third_page_main .third_page_cardpart {
+    grid-template-columns: 1fr;
+  }
+  .third_page .third_page_main .third_page_cardpart .third_page_card {
+    max-width: 243px;
+  }
+  .four_page {
+    padding: 64px 16px 64px 16px;
+  }
+  .four_page .four_page_image {
+    max-width: 343px;
+    max-height: 343px;
+  }
+  .four_page .four_page_text {
+    max-width: 343px;
+    max-height: 288px;
+  }
+  .five_page {
+    padding: 64px 16px 64px 16px;
+  }
+  .five_page .five_page_colorarea {
+    height: 356px;
+  }
+  .five_page .five_page_colorarea .five_page_innerarea .five_page_textarea .five_page_p1 {
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .five_page .five_page_colorarea .five_page_innerarea .five_page_textarea .five_page_p2 {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+  .five_page .five_page_colorarea .five_page_innerarea .five_page_button {
+    width: 279px;
+  }
+}/*# sourceMappingURL=iphone.css.map */
